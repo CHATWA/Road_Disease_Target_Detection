@@ -3,7 +3,7 @@
 
 path: ../
 train: ./Road_Disease_Target_Detection/dataset/images/train
-val: ./Road_Disease_Target_Detection/dataset/images/train
+val: ./Road_Disease_Target_Detection/dataset/images/val
 test:
 
 # Classes
