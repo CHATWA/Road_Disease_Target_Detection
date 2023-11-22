@@ -1,10 +1,11 @@
 # Ultralytics YOLO 🚀, AGPL-3.0 license
 # Example usage: yolo train data=jsai_data.yaml
 
-path: ./
 train: ./dataset/images/train
 val: ./dataset/images/val
-test:
+
+# number of classes 类别数
+nc: 8
 
 # Classes
 names:
