@@ -1,18 +1,18 @@
 # Ultralytics YOLO 🚀, AGPL-3.0 license
 # Example usage: yolo train data=jsai_data.yaml
 
-path: ../
-train: ./Road_Disease_Target_Detection/dataset/images/train
-val: ./Road_Disease_Target_Detection/dataset/images/val
+path: ./
+train: ./dataset/images/train
+val: ./dataset/images/val
 test:
 
 # Classes
 names:
-  0: 横向裂缝
-  1: 纵向裂缝
-  2: 块状裂缝
-  3: 龟裂
-  4: 坑槽
-  5: 修补网状裂缝
-  6: 修补裂缝
-  7: 修补坑槽
+  0: Transverse Crack
+  1: Longitudinal Crack
+  2: Block Crack
+  3: Alligator Cracking
+  4: Pothole
+  5: Patching Mesh Cracks
+  6: Crack Repair
+  7: Pothole Repair
